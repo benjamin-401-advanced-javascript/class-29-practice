@@ -11,7 +11,7 @@ export default function deck(props) {
       <section className="deck">
         <header><h2>{props.deckData.title}</h2></header>
 
-        {props.deckData.map((card, i) => (
+        {props.deckData.records.map((card, i) => (
           <Card key={i} cardData={card} />
         ))}
 
