@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
-import Page from './components/page';
+// import Page from './components/page';
+import App from './components/App/App.jsx';
 
-
-const App = (props) => {
-  return <Page content={content} />;
-};
+// const App = (props) => {
+//   return <myApp />;
+// };
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(

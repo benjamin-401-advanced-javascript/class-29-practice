@@ -12,7 +12,6 @@ import If from '../If/If';
 import './App.css';
 
 function App() {
-  const content = this.props.content || [];
 
   return (
     <>
